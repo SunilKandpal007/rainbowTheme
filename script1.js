@@ -1,7 +1,10 @@
+// defining const variable for navbar-section-heading
+
 const myNav = document.getElementById("myNav");
 const section1 = document.getElementById('mySection');
 const subHeading = document.getElementById("heading2");
 
+//function for red-color button
 function colorRed(){
     document.body.style.background = "red";
     myNav.style.background = "linear-gradient(90deg, rgba(238,10,10,1) 0%, rgba(199,4,27,1) 35%, rgba(255,59,0,1) 100%)";
@@ -9,6 +12,7 @@ function colorRed(){
     subHeading.style.color = "black";
 }
 
+//function for red-color button
 function colorOrange(){
     document.body.style.background = "orange";
     myNav.style.background = "linear-gradient(90deg, rgba(252,150,5,1) 0%, rgba(249,182,23,1) 50%, rgba(231,181,106,1) 100%)";

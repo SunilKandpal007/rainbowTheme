@@ -10,12 +10,21 @@ body{
     padding: 0;
 }
 
+/* css property for wrapper */
 .wrapper{
     width: 100%;
     margin: 0px;
     padding: 0;
 }
 
+/* css property for text-logo */
+.logo{
+    /* margin-right: auto; */
+    color: #fcf9f9;
+    font-size: 1.5em;
+    text-shadow: 5px 3px 0px rgba(223,15,15,0.56);
+}
+/* css property for navbar */
 .navbar{
     position: fixed;
     top: 0;
@@ -24,16 +33,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     z-index: 1;
     /* box-shadow: 0 1px 8px #ddd; */
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    background-color: lightblue;
-}
-.logo{
-    /* margin-right: auto; */
-    color: #000;
-    font-size: 1.5em;
+    background: linear-gradient(90deg, rgba(217,57,127,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .nav-list{
@@ -46,16 +50,21 @@ body{
     padding: 0px;
 }
 
+/* css property for navbar-buttons */
 .nav-list button{
     color: #fff;
     font-weight: bold;
     font-size: 1rem;
-    border-radius: 7px;
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    /* justify-content: center; */
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     box-shadow: 10px 5px 1px 0px rgba(0,0,0,0.75);
 }
 
+/* css property of all buttons */
 .btn-red{
     background-color: red;
     width: 70px;
@@ -94,9 +103,13 @@ body{
     width: 70px;
     height: 35px;
 }
+
+/* css property for section-body */
 .content-section{
+    margin-top: 60px;
     padding: 20px;
     font-family: Cambria, sans-serif;
+    background-color: lightcyan;
     color: #000;
     overflow-y: auto;
     max-height: 200vh;
