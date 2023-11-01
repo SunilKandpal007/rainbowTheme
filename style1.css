@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1;
+    /* box-shadow: 0 1px 8px #ddd; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color: lightblue;
+}
+.logo{
+    /* margin-right: auto; */
+    color: #000;
+    font-size: 1.5em;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    margin-right: 20px;    
+    padding: 0px;
+}
+
+.nav-list button{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    box-shadow: 10px 5px 1px 0px rgba(0,0,0,0.75);
+}
+
+.btn-red{
+    background-color: red;
+    width: 70px;
+    height: 35px;
+}
+
+.btn-orange{
+    background-color: orange;
+    width: 80px;
+    height: 35px;
+}
+
+.btn-green{
+    background-color: green;
+    width: 70px;
+    height: 35px;
+}
+
+.btn-yellow{
+    background-color: yellow;
+    width: 80px;
+    height: 35px;
+}
+.btn-blue{
+    background-color: blue;
+    width: 70px;
+    height: 35px;
+}
+.btn-indigo{
+    background-color: indigo;
+    width: 80px;
+    height: 35px;
+}
+.btn-violet{
+    background-color: violet;
+    width: 70px;
+    height: 35px;
+}
+.content-section{
+    padding: 20px;
+    font-family: Cambria, sans-serif;
+    color: #000;
+    overflow-y: auto;
+    max-height: 200vh;
+}
+.content-section h2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: Cambria, sans-serif;
+}
+.content-section p{
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 0px;
+    font-family: Cambria, sans-serif;
+}
